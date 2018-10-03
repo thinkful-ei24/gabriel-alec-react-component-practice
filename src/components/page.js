@@ -2,8 +2,7 @@
 import React from 'react';
 
 // Components
-import Carousel from './carousel';
-import ControlButton from './control-button';
+import CarouselWrapper from './carousel-wrapper';
 
 // Styles
 
@@ -59,11 +58,14 @@ export default class Page extends React.Component {
     }
   }
 
-//this is where we'll render the wrapper
+  //this is where we'll render the wrapper
   render() {
     return (
-      <div>
-      </div>
+      <CarouselWrapper
+        currentImage={this.state.currentImage}
+        previousFunction={this.setPreviousImage}
+        nextFunction={this.setNextImage}
+      />
     );
   }
 }

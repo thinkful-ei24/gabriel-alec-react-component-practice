@@ -1,0 +1,29 @@
+.wrapper-container {
+  text-align: center;
+}
+
+.carousel-container {
+  /* margin */
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  /* center */
+  margin-left: auto;
+  margin-right: auto;
+  /* height of carousel */
+  height: 400px;
+  /* make less than full width */
+  width: 50%;
+  /* border */
+  border: 1px solid black;
+  /* padding */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.button-container {
+  /* center */
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid gray;
+  width: 15%;
+}
