@@ -6,5 +6,5 @@ import React from 'react';
 // Styles
 
 export default function ControlButton(props) {
-  return <button>Control button</button>;
+  return <button onClick={props.buttonFunction}>{props.name}</button>;
 }
