@@ -59,12 +59,10 @@ export default class Page extends React.Component {
     }
   }
 
+//this is where we'll render the wrapper
   render() {
     return (
       <div>
-        <Carousel currentImage={this.state.currentImage} />
-        <ControlButton buttonFunction={this.setPreviousImage} name="Previous" />
-        <ControlButton buttonFunction={this.setNextImage} name="Next" />
       </div>
     );
   }
